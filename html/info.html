@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>O Nama</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
+	<link rel="stylesheet" type="text/css" href="../css/info.css">
+</head>
+<body>
+	<nav id="nav-box">
+		<a href="./pocetna.html">Pocetna</a>
+		<a class="active" href="./info.html">SSS</a>
+		<a href="./kontakt.html">Kontakt</a>
+	</nav>
+
+	<section class="first">
+		<p>RFID (Radio Frequencz Identificatio) je vid bežične identifikacije, koji koristi tzv. RFID tagove ili  kartice, od kojih svaka ima jedinstveni identifikacioni broj (ID). Kada se kartica nađe u blizini čitača, njen ID biva očitan od RFID čitača.</p>
+		<div>
+			<img src="../img/rfid-card-2.png">
+			<img src="../img/rfid.webp">
+		</div>
+		<p>RFID čitač je povezan sa razvojnim sistemom <i>EasyPic</i> v7, na kojem se nalazi mikrokontroler familije PIC. Čitač šalje očitan ID mikrokontroleru, nakon čega mikrokontroler to prosleđuje računaru preko RS-232 komunikacije. Računar šalje "odgovor" mikrokontroleru da li je radnik, čija je kartica očitana, u bazi zaposlenih radnika ili ne, i u skladu sa tim se uključuje odgovarajuća LED dioda na razvojnom sistemu, koja simulira otključavanje električne brave.</p>
+
+	</section>
+
+	<section class="second">
+		<p>
+			iButton je ključ je modul integrisan u čelično kućište u obliku novčića, na kojem je izgraviran jedinstven serijski broj (ID). Napravljen je uređaj u koji je "spakovana" elektronika sa AVR mikrokontrolerom, koji, nakon uspostavljanja kontakta između ključa i mikrokontrolera, očitava ovaj ID preko 1-wire protokola. Slično kao i kod RFID, ID se dalje šalje računaru preko RS-232, koji "odgovara" da li je radnik sa ključem u bazi ili ne. Na prednjem delu uređaja su signalne LED diode, crvena i zelena, koje služe kao indikacija da li je radnik u bazi.
+		</p>
+		<img src="../img/ibutton.jpg">
+	</section>
+
+	<footer>
+		<a href="https://srednjaskola.krupanj@gmail.com">srednjaskola.krupanj@gmail.com</a>
+		<p>Copyright &#169; 2023</p>
+	</footer>
+
+</body>
+</html>
